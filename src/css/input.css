@@ -1,0 +1,25 @@
+form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top:2rem;
+}
+
+input{
+  padding: 8px 8px;
+  border:1px solid #eee;
+  border-radius:4px;
+  outline: none;
+}
+
+button{
+  margin-left:2px;
+  padding: 8px 8px;
+  background: red;
+  border:none;
+  border-radius:6px;
+  color:#fff;
+}
+
+input::placeholder{color:red;}
+  
