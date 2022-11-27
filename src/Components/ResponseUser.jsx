@@ -12,12 +12,12 @@ function Responseuser(
       html_url
    }){
     return(
-     <div class="container" >
-		     <div class="item" >
-			      <div class="img">
+     <div className="container" >
+		     <div className="item" >
+			      <div className="img">
 				    <img src={imagem} width="100px"/>
 			      </div>
-			     <div class="dados">
+			     <div className="dados">
 			     <span>
 			       Nome: <i> {user}</i>
 			     </span>
@@ -34,7 +34,7 @@ function Responseuser(
 			       Repo: <i> {repo}</i>
 			     </span>
 		  	</div>
-			  <div class="visitar">
+			  <div className="visitar">
 				 <a href={html_url} target="_black">visitar</a>
 			  </div>
 		  </div>
